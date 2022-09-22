@@ -28,7 +28,7 @@
                         &kp LCTRL &kp LGUI &kp LALT  &lt 2 SPACE  &lt 1 RET  &kp LC(S) &kp LC(C) &kp LC(V)
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		lower_layer {
@@ -46,7 +46,7 @@
                                               &bootloader        &reset       &trans    &trans   &trans    &trans &reset   &bootloader
 			>;
 
-			sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
+			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 		};
 
 		raise_layer {
@@ -64,7 +64,7 @@
                       &trans &trans &trans     &trans   &trans    &trans  &trans &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp LC(LEFT) LC(RIGHT)>;
 		};
 	};
 };
